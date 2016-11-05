@@ -1,4 +1,4 @@
-# OAuth-2.0---FitBit
+# OAuth 2.0 add devices like FitBit
 
 Basic connection to FitBit API using AngularJS
 
@@ -21,12 +21,3 @@ You should now be able to run the site and login to fitbit. You'll then be redir
 _To view a working example, log into your fitbit account through http://collierdevlinmedia.com/fitbit/#/_
 
 ------------------------
-
-###Brief Explanation
-
-To understand the big picture of how OAuth 2.0 works with FitBit, here is a brief, non-technical explanation.
-
-1. The user clicks on the "Login with FitBit" button and is redirected to FitBit's login screen on their website. The user is then prompted to allow our application to access their activity and profile information.
-2. Once authorization is complete, FitBit will redirect the user back to our application (using the Callback URL) along with an access token and other user information.
-3. Our oauth_callback file handles this access token and stores it in the user's local storage.
-4. The user is then redirected to our dashboard where we are able to make API requests using the user's access token to retrieve their profile and activity information.
